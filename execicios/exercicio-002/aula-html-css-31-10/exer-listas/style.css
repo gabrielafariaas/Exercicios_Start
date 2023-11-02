@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-image: url(ceu-mar.png);
+    background-size: 100rem;
+    backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 200%;
+}
+
+h1 {
+    margin-left: 20px;
+
+}
+
+.list {
+    margin: 50px;
+    margin-left: 40px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+ul {
+    margin-left: -15px;
+}
+
+.livro {
+    margin-left: 20px;
+}
+
+.livros {
+    margin-left: 5px;
+}
+.jogos{
+    margin-left: 18px;
+}

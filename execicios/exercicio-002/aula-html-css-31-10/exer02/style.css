@@ -1,0 +1,26 @@
+body {
+    color: black;
+    background-color: rgb(208, 232, 253);
+    list-style-position: inside;
+}
+a{
+    color: blueviolet;
+}
+
+img {
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+    border: 3px solid aquamarine;
+}
+
+ul {
+    text-align: left;
+    margin: 30px;
+}
+
+.center {
+    text-align: center;
+    
+   
+}
