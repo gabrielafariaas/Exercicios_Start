@@ -1,0 +1,49 @@
+:root{
+    --bg-color: black;
+    --color-font: antiquewhite;
+    --font:Georgia, 'Times New Roman', Times, serif;
+    --color-blue: #556bff;
+    --color-violet: blueviolet;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--color-font);
+    font-family: var(--font);
+}
+nav a:hover {
+    color: var(--color-blue)
+}
+
+nav a {
+    color: var(--color-font);
+    text-decoration: none;
+}
+
+nav ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 4px;
+}
+.grid-item{
+    background-color: var(--color-blue);
+    height: 60px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.grid-item:nth-child(even){
+    background-color: var(--color-violet);
+}
